@@ -1,0 +1,1113 @@
+
+2022-08-31 11:46:14 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 11:46:17.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 11:46:17.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 11:46:17.853 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 11:46:17.853 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 11:46:17.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 11:46:18.196 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 11:46:18.235 INFO [main] org.apache.catalina.startup.Catalina.load [854] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 11:46:18.282 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 11:46:18.282 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 11:46:19.047 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:19.188 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:19.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 11:46:19.563 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:19.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [359] 밀리초에 완료되었습니다.
+31-Aug-2022 11:46:19.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 11:46:19.625 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:19.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 11:46:19.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 11:46:21.047 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:21.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [1,500] 밀리초에 완료되었습니다.
+31-Aug-2022 11:46:21.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 11:46:21.204 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:21.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [79] 밀리초에 완료되었습니다.
+31-Aug-2022 11:46:21.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 11:46:21.282 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:21.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 11:46:21.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 11:46:21.329 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 11:46:21.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 11:46:21.344 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 11:46:21.391 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [3152] 밀리초 내에 시작되었습니다.
+java.sql.SQLIntegrityConstraintViolationException: (conn=56) Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:70)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:273)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeUpdate(ClientSidePreparedStatement.java:181)
+	at user.UserDAO.checkIn(UserDAO.java:75)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220)
+	... 32 more
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1674)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1536)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1499)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318)
+	... 33 more
+java.sql.SQLIntegrityConstraintViolationException: (conn=57) Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:70)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:273)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeUpdate(ClientSidePreparedStatement.java:181)
+	at user.UserDAO.checkIn(UserDAO.java:75)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220)
+	... 32 more
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1674)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1536)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1499)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318)
+	... 33 more
+java.sql.SQLIntegrityConstraintViolationException: (conn=58) Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:70)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:273)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeUpdate(ClientSidePreparedStatement.java:181)
+	at user.UserDAO.checkIn(UserDAO.java:75)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220)
+	... 32 more
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1674)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1536)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1499)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318)
+	... 33 more
+java.sql.SQLIntegrityConstraintViolationException: (conn=59) Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:70)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:273)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeUpdate(ClientSidePreparedStatement.java:181)
+	at user.UserDAO.checkIn(UserDAO.java:75)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220)
+	... 32 more
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1674)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1536)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1499)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318)
+	... 33 more
+java.sql.SQLIntegrityConstraintViolationException: (conn=60) Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:70)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:273)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeUpdate(ClientSidePreparedStatement.java:181)
+	at user.UserDAO.checkIn(UserDAO.java:75)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321)
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220)
+	... 32 more
+Caused by: java.sql.SQLException: Column count doesn't match value count at row 1
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1674)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1536)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1499)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318)
+	... 33 more
+31-Aug-2022 13:56:27.616 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+31-Aug-2022 13:56:27.632 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 13:56:27.934 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 13:56:27.949 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+31-Aug-2022 14:06:31.032 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+31-Aug-2022 14:06:31.047 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 14:06:31.344 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:06:31.360 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+31-Aug-2022 14:11:00.141 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 14:11:00.141 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 14:11:00.158 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 14:11:00.172 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 14:11:00.188 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 14:11:02 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 14:11:02.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 14:11:02.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 14:11:02.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 14:11:03.188 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 14:11:03.219 INFO [main] org.apache.catalina.startup.Catalina.load [686] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 14:11:03.266 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 14:11:03.266 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 14:11:03.954 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:04.094 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:04.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 14:11:04.454 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:04.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [360] 밀리초에 완료되었습니다.
+31-Aug-2022 14:11:04.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 14:11:04.532 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:04.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 14:11:04.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 14:11:04.954 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:05.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [500] 밀리초에 완료되었습니다.
+31-Aug-2022 14:11:05.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 14:11:05.094 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:05.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 14:11:05.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 14:11:05.172 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:05.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 14:11:05.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 14:11:05.235 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:11:05.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 14:11:05.235 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 14:11:05.297 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [2078] 밀리초 내에 시작되었습니다.
+31-Aug-2022 14:44:47.052 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+31-Aug-2022 14:44:47.068 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 14:44:47.365 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:44:47.365 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+31-Aug-2022 14:46:17.094 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 14:46:17.094 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 14:46:17.118 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 14:46:17.134 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 14:46:19 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 14:46:19.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 14:46:19.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 14:46:19.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 14:46:20.177 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 14:46:20.209 INFO [main] org.apache.catalina.startup.Catalina.load [683] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 14:46:20.256 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 14:46:20.256 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 14:46:20.922 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:21.047 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:21.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 14:46:21.391 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:21.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [344] 밀리초에 완료되었습니다.
+31-Aug-2022 14:46:21.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 14:46:21.438 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:21.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 14:46:21.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 14:46:21.844 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:21.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [469] 밀리초에 완료되었습니다.
+31-Aug-2022 14:46:21.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 14:46:21.985 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:21.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 14:46:21.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 14:46:22.063 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:22.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 14:46:22.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 14:46:22.098 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:46:22.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 14:46:22.110 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 14:46:22.172 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1961] 밀리초 내에 시작되었습니다.
+31-Aug-2022 14:51:42.876 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 14:51:42.891 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 14:51:42.902 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 14:51:42.922 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 14:51:42.938 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 14:51:44 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 14:51:45.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 14:51:45.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 14:51:45.516 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 14:51:45.532 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 14:51:45.829 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 14:51:45.875 INFO [main] org.apache.catalina.startup.Catalina.load [677] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 14:51:45.923 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 14:51:45.923 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 14:51:46.625 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:46.750 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:46.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 14:51:47.079 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:47.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [329] 밀리초에 완료되었습니다.
+31-Aug-2022 14:51:47.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 14:51:47.125 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:47.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+31-Aug-2022 14:51:47.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 14:51:47.563 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:47.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [516] 밀리초에 완료되었습니다.
+31-Aug-2022 14:51:47.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 14:51:47.704 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:47.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+31-Aug-2022 14:51:47.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 14:51:47.766 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:47.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 14:51:47.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 14:51:47.813 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 14:51:47.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 14:51:47.824 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 14:51:47.871 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1996] 밀리초 내에 시작되었습니다.
+31-Aug-2022 15:58:41.532 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+31-Aug-2022 15:58:41.547 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 15:58:41.875 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:58:41.875 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+31-Aug-2022 15:59:11.157 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 15:59:11.173 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 15:59:11.186 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 15:59:11.204 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 15:59:13 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 15:59:13.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 15:59:13.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 15:59:13.907 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 15:59:13.922 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 15:59:14.235 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 15:59:14.266 INFO [main] org.apache.catalina.startup.Catalina.load [681] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 15:59:14.313 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 15:59:14.313 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 15:59:15.000 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:15.125 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:15.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 15:59:15.516 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:15.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [391] 밀리초에 완료되었습니다.
+31-Aug-2022 15:59:15.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 15:59:15.579 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:15.579 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+31-Aug-2022 15:59:15.579 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 15:59:16.000 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:16.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [500] 밀리초에 완료되었습니다.
+31-Aug-2022 15:59:16.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 15:59:16.141 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:16.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 15:59:16.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 15:59:16.235 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:16.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 15:59:16.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 15:59:16.297 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 15:59:16.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 15:59:16.297 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 15:59:16.344 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [2077] 밀리초 내에 시작되었습니다.
+java.sql.SQLDataException: Current position is before the first row
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.checkObjectRange(SelectResultSet.java:622)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getString(SelectResultSet.java:945)
+	at user.UserDAO.checkIn(UserDAO.java:76)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.sql.SQLDataException: Current position is before the first row
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.checkObjectRange(SelectResultSet.java:622)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getString(SelectResultSet.java:945)
+	at user.UserDAO.checkIn(UserDAO.java:76)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+31-Aug-2022 16:01:13.063 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 16:01:13.063 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 16:01:13.079 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 16:01:13.095 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 16:01:13.112 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 16:01:15 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 16:01:15.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 16:01:15.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:01:15.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:01:15.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 16:01:15.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 16:01:16.047 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 16:01:16.079 INFO [main] org.apache.catalina.startup.Catalina.load [668] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 16:01:16.125 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 16:01:16.125 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 16:01:16.782 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:16.922 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:16.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 16:01:17.282 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:17.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [344] 밀리초에 완료되었습니다.
+31-Aug-2022 16:01:17.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 16:01:17.375 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:17.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [93] 밀리초에 완료되었습니다.
+31-Aug-2022 16:01:17.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 16:01:17.829 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:17.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [516] 밀리초에 완료되었습니다.
+31-Aug-2022 16:01:17.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 16:01:17.969 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:17.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 16:01:17.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 16:01:18.032 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:18.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+31-Aug-2022 16:01:18.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 16:01:18.079 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:01:18.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 16:01:18.093 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 16:01:18.141 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [2062] 밀리초 내에 시작되었습니다.
+java.sql.SQLDataException: Current position is before the first row
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.checkObjectRange(SelectResultSet.java:622)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getString(SelectResultSet.java:945)
+	at user.UserDAO.checkIn(UserDAO.java:76)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+31-Aug-2022 16:04:09.016 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 16:04:09.016 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 16:04:09.034 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 16:04:09.047 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 16:04:09.063 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 16:04:11 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:04:11.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 16:04:11.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 16:04:11.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 16:04:11.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 16:04:11.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 16:04:11.969 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 16:04:12.000 INFO [main] org.apache.catalina.startup.Catalina.load [654] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 16:04:12.047 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 16:04:12.047 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 16:04:12.766 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:12.891 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:12.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 16:04:13.235 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:13.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [343] 밀리초에 완료되었습니다.
+31-Aug-2022 16:04:13.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 16:04:13.297 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:13.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 16:04:13.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 16:04:13.750 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:13.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [532] 밀리초에 완료되었습니다.
+31-Aug-2022 16:04:13.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 16:04:13.891 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:13.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 16:04:13.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 16:04:13.954 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:13.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+31-Aug-2022 16:04:13.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 16:04:14.000 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:04:14.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+31-Aug-2022 16:04:14.015 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 16:04:14.062 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [2059] 밀리초 내에 시작되었습니다.
+java.sql.SQLDataException: Current position is before the first row
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.checkObjectRange(SelectResultSet.java:622)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getString(SelectResultSet.java:945)
+	at user.UserDAO.checkIn(UserDAO.java:76)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+31-Aug-2022 16:06:38.688 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 16:06:38.688 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 16:06:38.712 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 16:06:38.735 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 16:06:38.751 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 16:06:40 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 16:06:41.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:06:41.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 16:06:41.600 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 16:06:41.610 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 16:06:41.922 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 16:06:41.954 INFO [main] org.apache.catalina.startup.Catalina.load [690] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 16:06:42.000 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 16:06:42.000 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 16:06:42.657 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:42.782 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:42.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 16:06:43.110 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:43.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [328] 밀리초에 완료되었습니다.
+31-Aug-2022 16:06:43.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 16:06:43.172 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:43.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 16:06:43.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 16:06:43.594 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:43.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [485] 밀리초에 완료되었습니다.
+31-Aug-2022 16:06:43.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 16:06:43.735 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:43.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [93] 밀리초에 완료되었습니다.
+31-Aug-2022 16:06:43.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 16:06:43.813 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:43.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+31-Aug-2022 16:06:43.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 16:06:43.844 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:06:43.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+31-Aug-2022 16:06:43.866 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 16:06:43.913 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1947] 밀리초 내에 시작되었습니다.
+java.sql.SQLDataException: Current position is before the first row
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.checkObjectRange(SelectResultSet.java:622)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getString(SelectResultSet.java:945)
+	at user.UserDAO.checkIn(UserDAO.java:77)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+31-Aug-2022 16:14:26.579 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+31-Aug-2022 16:14:26.594 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 16:14:26.969 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:14:26.969 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+java.sql.SQLDataException: Current position is before the first row
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.checkObjectRange(SelectResultSet.java:622)
+	at org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet.getString(SelectResultSet.java:945)
+	at user.UserDAO.checkIn(UserDAO.java:77)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:189)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1760)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+31-Aug-2022 16:16:13.688 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 16:16:13.688 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 16:16:13.707 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 16:16:13.723 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 16:16:13.751 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 16:16:15 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 16:16:16.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 16:16:16.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 16:16:16.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 16:16:16.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 16:16:16.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 16:16:16.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 16:16:16.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 16:16:16.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 16:16:16.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 16:16:16.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:16:16.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 16:16:16.527 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 16:16:16.839 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 16:16:16.886 INFO [main] org.apache.catalina.startup.Catalina.load [668] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 16:16:16.922 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 16:16:16.922 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 16:16:17.594 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:17.735 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:17.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 16:16:18.079 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:18.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [359] 밀리초에 완료되었습니다.
+31-Aug-2022 16:16:18.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 16:16:18.141 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:18.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 16:16:18.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 16:16:18.553 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:18.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [485] 밀리초에 완료되었습니다.
+31-Aug-2022 16:16:18.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 16:16:18.688 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:18.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [78] 밀리초에 완료되었습니다.
+31-Aug-2022 16:16:18.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 16:16:18.766 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:18.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 16:16:18.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 16:16:18.813 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:16:18.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 16:16:18.813 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 16:16:18.860 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1980] 밀리초 내에 시작되었습니다.
+31-Aug-2022 16:40:46.673 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/BBS]의 배치를 제거합니다.
+31-Aug-2022 16:40:46.704 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/examples]의 배치를 제거합니다.
+31-Aug-2022 16:40:46.719 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/host-manager]의 배치를 제거합니다.
+31-Aug-2022 16:40:46.719 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/test]의 배치를 제거합니다.
+31-Aug-2022 16:40:46.735 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/manager]의 배치를 제거합니다.
+31-Aug-2022 16:40:46.735 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/docs]의 배치를 제거합니다.
+31-Aug-2022 16:40:46.735 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 16:40:47.063 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:40:47.063 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [328] 밀리초에 완료되었습니다.
+31-Aug-2022 16:40:47.063 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 16:40:47.110 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:40:47.110 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 16:40:47.110 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 16:40:47.579 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:40:47.610 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [500] 밀리초에 완료되었습니다.
+31-Aug-2022 16:40:47.610 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 16:40:47.657 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:40:47.672 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 16:40:47.672 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 16:40:47.735 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:40:47.735 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+31-Aug-2022 16:40:47.735 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 16:40:47.766 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:40:47.766 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+31-Aug-2022 16:41:12.284 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+31-Aug-2022 16:41:12.284 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+31-Aug-2022 16:41:12.302 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+31-Aug-2022 16:41:12.319 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+31-Aug-2022 16:41:12.345 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.
+
+2022-08-31 16:41:14 Apache Commons Daemon procrun stderr initialized.
+31-Aug-2022 16:41:15.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk-17.0.4
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.4+11-LTS-179
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:41:15.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\apache-tomcat-10.0.22
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=C:\apache-tomcat-10.0.22
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=C:\apache-tomcat-10.0.22\endorsed
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=C:\apache-tomcat-10.0.22\temp
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=C:\apache-tomcat-10.0.22\conf\logging.properties
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  exit
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  abort
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xms128m
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Xmx256m
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.33]을(를) 로드했습니다.
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+31-Aug-2022 16:41:15.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1o  3 May 2022]
+31-Aug-2022 16:41:15.454 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3210"]을(를) 초기화합니다.
+31-Aug-2022 16:41:15.485 INFO [main] org.apache.catalina.startup.Catalina.load [762] 밀리초 내에 서버가 초기화되었습니다.
+31-Aug-2022 16:41:15.532 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+31-Aug-2022 16:41:15.532 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.0.22]
+31-Aug-2022 16:41:16.266 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:16.407 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:16.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]을(를) 배치합니다.
+31-Aug-2022 16:41:16.735 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:16.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\BBS]에 대한 배치가 [343] 밀리초에 완료되었습니다.
+31-Aug-2022 16:41:16.750 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]을(를) 배치합니다.
+31-Aug-2022 16:41:16.797 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:16.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+31-Aug-2022 16:41:16.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]을(를) 배치합니다.
+31-Aug-2022 16:41:17.266 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:17.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\examples]에 대한 배치가 [563] 밀리초에 완료되었습니다.
+31-Aug-2022 16:41:17.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]을(를) 배치합니다.
+31-Aug-2022 16:41:17.438 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:17.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\host-manager]에 대한 배치가 [94] 밀리초에 완료되었습니다.
+31-Aug-2022 16:41:17.454 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]을(를) 배치합니다.
+31-Aug-2022 16:41:17.516 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:17.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 16:41:17.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]을(를) 배치합니다.
+31-Aug-2022 16:41:17.579 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+31-Aug-2022 16:41:17.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-10.0.22\webapps\test]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+31-Aug-2022 16:41:17.594 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3210"]을(를) 시작합니다.
+31-Aug-2022 16:41:17.641 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [2162] 밀리초 내에 시작되었습니다.
+01-Sep-2022 14:40:07.047 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+01-Sep-2022 14:40:07.063 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+01-Sep-2022 14:40:08.468 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+01-Sep-2022 14:40:08.471 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 []인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+01-Sep-2022 14:40:14.188 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+01-Sep-2022 14:40:14.188 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+01-Sep-2022 14:40:14.211 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+01-Sep-2022 14:40:14.251 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.

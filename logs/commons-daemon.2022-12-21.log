@@ -1,0 +1,10 @@
+[2022-12-21 18:52:11] [info]  [ 8216] Apache Commons Daemon procrun (1.3.1.0 64-bit) started.
+[2022-12-21 18:52:12] [info]  [ 8216] Running Service 'Tomcat10'...
+[2022-12-21 18:52:12] [info]  [ 8416] Starting service...
+[2022-12-21 18:52:14] [info]  [ 8416] Service started in 2453 milliseconds.
+[2022-12-29 03:15:03] [info]  [ 8216] Service SERVICE_CONTROL_INTERROGATE signalled.
+[2023-01-11 19:04:40] [info]  [ 3048] Console SHUTDOWN event signaled.
+[2023-01-11 19:04:41] [info]  [ 3048] Stopping service...
+[2023-01-11 19:04:42] [info]  [ 3048] Service stop thread completed.
+[2023-01-11 19:04:42] [info]  [ 8216] Run service finished.
+[2023-01-11 19:04:42] [info]  [ 8216] Apache Commons Daemon procrun finished.

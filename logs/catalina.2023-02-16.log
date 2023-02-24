@@ -1,0 +1,5 @@
+16-Feb-2023 19:17:56.418 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3210"]을(를) 일시 정지 중
+16-Feb-2023 19:17:56.739 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+16-Feb-2023 19:17:57.957 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [ROOT]이(가) JDBC 드라이버 [org.mariadb.jdbc.Driver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+16-Feb-2023 19:17:58.410 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3210"]을(를) 중지시킵니다.
+16-Feb-2023 19:17:58.588 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3210"]을(를) 소멸시킵니다.

@@ -1,0 +1,5 @@
+
+2023-02-17 17:27:48 Apache Commons Daemon procrun stderr initialized.
+17-Feb-2023 17:27:53.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.0.22
+17-Feb-2023 17:27:53.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jun 2 2022 16:53:56 UTC
+17-Feb-2023 17:27:53.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.0.22.0

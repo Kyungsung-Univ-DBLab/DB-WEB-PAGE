@@ -1,0 +1,13 @@
+[2022-11-11 09:55:52] [info]  [ 1764] Apache Commons Daemon procrun (1.3.1.0 64-bit) started.
+[2022-11-11 09:55:53] [info]  [ 1764] Running Service 'Tomcat10'...
+[2022-11-11 09:55:53] [info]  [ 3340] Starting service...
+[2022-11-11 09:55:55] [info]  [ 3340] Service started in 2035 milliseconds.
+[2022-11-23 15:14:39] [info]  [ 8476] Console SHUTDOWN event signaled.
+[2022-11-23 15:14:39] [info]  [ 8476] Stopping service...
+[2022-11-23 15:14:45] [info]  [ 1764] Service SHUTDOWN signalled.
+[2022-11-23 15:14:47] [info]  [ 1764] Service SERVICE_CONTROL_STOP signalled.
+[2022-11-23 15:14:48] [info]  [ 9116] Stopping service...
+[2022-11-23 15:14:52] [info]  [ 8476] Service stop thread completed.
+[2022-11-23 15:14:57] [info]  [ 9116] Service stop thread completed.
+[2022-11-23 15:14:58] [info]  [ 1764] Run service finished.
+[2022-11-23 15:14:58] [info]  [ 1764] Apache Commons Daemon procrun finished.

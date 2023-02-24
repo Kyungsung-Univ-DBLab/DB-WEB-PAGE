@@ -1,0 +1,9 @@
+[2022-09-16 09:50:29] [info]  [10032] Apache Commons Daemon procrun (1.3.1.0 64-bit) started.
+[2022-09-16 09:50:30] [info]  [10032] Running Service 'Tomcat10'...
+[2022-09-16 09:50:30] [info]  [10000] Starting service...
+[2022-09-16 09:50:32] [info]  [10000] Service started in 1843 milliseconds.
+[2022-09-25 17:10:21] [info]  [10032] Service SERVICE_CONTROL_STOP signalled.
+[2022-09-25 17:10:21] [info]  [ 7240] Stopping service...
+[2022-09-25 17:10:23] [info]  [ 7240] Service stop thread completed.
+[2022-09-25 17:10:23] [info]  [10032] Run service finished.
+[2022-09-25 17:10:23] [info]  [10032] Apache Commons Daemon procrun finished.
